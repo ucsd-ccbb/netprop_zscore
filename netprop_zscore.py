@@ -18,7 +18,7 @@ def main(num_reps=10, seed_gene_file='HC_genes/example_seed.tsv',int_file='../in
     
     Inputs:
     num_reps: number of randomizations
-    seed_gene_file: location of file containing seed genes (see example for format)
+    seed_gene_file: location of file containing seed genes (see example for format... clunky format due to historical reasons... need to improve)
     int_file: location of interactome to use (gpickle format) 
     out_name: identifier for output files (currently saves in current directory... need to update to allow setting of save location)
     rand_method: type of randomization (default = 'degree_binning', alternate method 'degree_ks_test' deprecated)
